@@ -1,0 +1,9 @@
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Security-Auditing' Guid='{54849625-5478-4994-a5ba-3e3b0328c30d}'/><EventID>4672</EventID><Version>0</Version><Level>0</Level><Task>12548</Task><Opcode>0</Opcode><Keywords>0x8020000000000000</Keywords><TimeCreated SystemTime='2026-10-27T05:13:08.9250393Z'/><EventRecordID>26621</EventRecordID><Correlation ActivityID='{92e40696-655c-0001-2a07-e4925c65dd01}'/><Execution ProcessID='616' ThreadID='5840'/><Channel>Security</Channel><Computer>SOC-SRV01.soc.test</Computer><Security/></System><EventData><Data Name='SubjectUserSid'>S-1-5-21-1842343136-3285932228-3355969638-1114</Data><Data Name='SubjectUserName'>lab.ops</Data><Data Name='SubjectDomainName'>SOC</Data><Data Name='SubjectLogonId'>0x1677888</Data><Data Name='PrivilegeList'>SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege</Data></EventData></Event>

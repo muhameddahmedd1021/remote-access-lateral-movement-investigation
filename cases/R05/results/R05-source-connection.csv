@@ -1,0 +1,5 @@
+_time,Image,DestinationIp,DestinationPort,EventRecordID
+2026-10-27 05:54:53,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,192.168.144.40,5985,38659
+2026-10-27 05:54:53,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,192.168.144.40,5985,38658
+2026-10-27 05:54:52,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,192.168.144.40,5985,38657
+2026-10-27 05:54:52,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,192.168.144.40,5985,38656

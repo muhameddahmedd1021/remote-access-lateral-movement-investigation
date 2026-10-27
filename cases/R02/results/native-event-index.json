@@ -1,0 +1,268 @@
+[
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 24,
+    "RecordID": 137,
+    "UTC": "2026-10-27T03:52:21.2491315Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 23,
+    "RecordID": 135,
+    "UTC": "2026-10-27T03:52:20.3550853Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 25,
+    "RecordID": 134,
+    "UTC": "2026-10-27T03:45:28.1738261Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 24,
+    "RecordID": 132,
+    "UTC": "2026-10-27T03:38:10.9987022Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 22,
+    "RecordID": 130,
+    "UTC": "2026-10-27T03:07:45.3821019Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "EventID": 21,
+    "RecordID": 129,
+    "UTC": "2026-10-27T03:07:43.5507845Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "EventID": 1149,
+    "RecordID": 42,
+    "UTC": "2026-10-27T03:45:26.9162914Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "EventID": 1149,
+    "RecordID": 39,
+    "UTC": "2026-10-27T03:07:34.6046411Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4647,
+    "RecordID": 25604,
+    "UTC": "2026-10-27T03:52:19.8472326Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4672,
+    "RecordID": 25537,
+    "UTC": "2026-10-27T03:45:30.5127733Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 25536,
+    "UTC": "2026-10-27T03:45:30.5127507Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 25535,
+    "UTC": "2026-10-27T03:45:30.5127213Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4672,
+    "RecordID": 25529,
+    "UTC": "2026-10-27T03:45:30.0987846Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 25528,
+    "UTC": "2026-10-27T03:45:30.0987790Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 25527,
+    "UTC": "2026-10-27T03:45:30.0987646Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4778,
+    "RecordID": 25520,
+    "UTC": "2026-10-27T03:45:27.4765544Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 25518,
+    "UTC": "2026-10-27T03:45:26.7825596Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4672,
+    "RecordID": 25517,
+    "UTC": "2026-10-27T03:45:26.7674736Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4779,
+    "RecordID": 25418,
+    "UTC": "2026-10-27T03:38:07.5981468Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4672,
+    "RecordID": 24842,
+    "UTC": "2026-10-27T03:07:38.6235352Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 24841,
+    "UTC": "2026-10-27T03:07:38.6235291Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 24840,
+    "UTC": "2026-10-27T03:07:38.6234739Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4624,
+    "RecordID": 24824,
+    "UTC": "2026-10-27T03:07:34.4654723Z"
+  },
+  {
+    "host": "SOC-SRV01",
+    "channel": "Security",
+    "EventID": 4672,
+    "RecordID": 24823,
+    "UTC": "2026-10-27T03:07:34.4638736Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 5,
+    "RecordID": 36719,
+    "UTC": "2026-10-27T03:52:22.6623934Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 36621,
+    "UTC": "2026-10-27T03:45:28.0378414Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 36613,
+    "UTC": "2026-10-27T03:44:58.3810611Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 36569,
+    "UTC": "2026-10-27T03:41:53.3548295Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 1,
+    "RecordID": 36545,
+    "UTC": "2026-10-27T03:39:59.9097890Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 5,
+    "RecordID": 36516,
+    "UTC": "2026-10-27T03:38:20.1722631Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 35994,
+    "UTC": "2026-10-27T03:07:36.7303159Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 35983,
+    "UTC": "2026-10-27T03:07:06.9288474Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 3,
+    "RecordID": 35912,
+    "UTC": "2026-10-27T03:02:06.2486509Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "EventID": 1,
+    "RecordID": 35815,
+    "UTC": "2026-10-27T02:55:49.1442882Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Security",
+    "EventID": 4648,
+    "RecordID": 31769,
+    "UTC": "2026-10-27T03:45:26.7586441Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Security",
+    "EventID": 4648,
+    "RecordID": 31768,
+    "UTC": "2026-10-27T03:44:57.2161306Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Security",
+    "EventID": 4648,
+    "RecordID": 31328,
+    "UTC": "2026-10-27T03:07:34.4646520Z"
+  },
+  {
+    "host": "SOC-WS01",
+    "channel": "Security",
+    "EventID": 4648,
+    "RecordID": 31324,
+    "UTC": "2026-10-27T03:07:04.9701860Z"
+  }
+]

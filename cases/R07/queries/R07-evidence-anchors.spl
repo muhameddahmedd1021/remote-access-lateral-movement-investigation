@@ -1,0 +1,4 @@
+index=lab_windows host=SOC-SRV01 EventCode IN (4624,5140,5145,11,4104,1) EventRecordID IN
+(24840,25901,26093,26778,32602,2753,33038,33043) earliest="10/27/2026:02:50:50" latest="10/27/2026:06:00:59"
+| sort 0 _time
+| table _time Channel EventCode EventRecordID

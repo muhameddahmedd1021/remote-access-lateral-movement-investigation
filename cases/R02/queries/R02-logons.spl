@@ -1,0 +1,5 @@
+index=lab_windows host=SOC-SRV01 Channel=Security TargetUserName=lab.ops EventCode=4624
+earliest="10/27/2026:02:50:50" latest="10/27/2026:03:53:00"
+| sort 0 _time
+| table _time host TargetUserName LogonType IpAddress TargetLogonId EventRecordID
+

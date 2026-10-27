@@ -1,0 +1,9 @@
+_time,Channel,EventCode,EventRecordID
+2026-10-27 03:07:38,Security,4624,24840
+2026-10-27 04:16:10,Security,5140,25901
+2026-10-27 04:32:31,Security,4624,26093
+2026-10-27 05:24:51,Microsoft-Windows-Sysmon/Operational,11,32602
+2026-10-27 05:24:51,Security,5145,26778
+2026-10-27 05:54:51,Microsoft-Windows-PowerShell/Operational,4104,2753
+2026-10-27 05:54:51,Microsoft-Windows-Sysmon/Operational,1,33038
+2026-10-27 05:54:52,Microsoft-Windows-Sysmon/Operational,1,33043

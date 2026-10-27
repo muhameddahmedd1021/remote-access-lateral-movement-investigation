@@ -1,0 +1,6 @@
+Case,Account,Activity,Verified transfer,Remote command,Evidence
+R01/R02,lab.ops,Authorized desktop checks,No,No,Target GUI identity and session2 transitions
+R03 positive,lab.ops,Empty share opened,No,No,GUI folder; type3 logon and share checks
+R03 negative,lab.user5,"Authenticated, access denied",No,No,GUI denial; type3 logon; failed detailed-share checks
+R04,lab.ops,Benign text copied,Yes,No,Matching60byteSHA256; targetSystem file event
+R05,lab.ops,Hostname and account command,No new transfer,"Yes, hostname/whoami only","WinRM host, target script and child processes"

@@ -1,0 +1,4 @@
+index=lab_windows EventCode=11 TargetFilename="*R04-transfer.txt" earliest="10/27/2026:04:42:33"
+latest="10/27/2026:05:30:35"
+| sort 0 _time
+| table _time host Image TargetFilename EventRecordID

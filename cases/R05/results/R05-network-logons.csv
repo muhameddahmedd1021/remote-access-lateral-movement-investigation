@@ -1,0 +1,6 @@
+_time,TargetUserName,LogonType,IpAddress,TargetLogonId,EventRecordID
+2026-10-27 05:54:52,lab.ops,3,-,0x177fb08,27158
+2026-10-27 05:54:52,lab.ops,3,-,0x177fab2,27153
+2026-10-27 05:54:51,lab.ops,3,-,0x177e6ef,27147
+2026-10-27 05:54:50,lab.ops,3,-,0x177e1e6,27145
+2026-10-27 05:54:49,lab.ops,3,-,0x177d34d,27139

@@ -1,0 +1,41 @@
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>sha256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude" />
+    <NetworkConnect onmatch="include">
+      <DestinationPort condition="is">8766</DestinationPort>
+    </NetworkConnect>
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains">\MohamedLab\</TargetFilename>
+    </FileCreate>
+    <RuleGroup name="SOC isolated lab network" groupRelation="or">
+      <NetworkConnect onmatch="include">
+        <Rule name="SOC private network port 445" groupRelation="and">
+          <DestinationIp condition="begin with">192.168.144.</DestinationIp>
+          <DestinationPort condition="is">445</DestinationPort>
+        </Rule>
+        <Rule name="SOC private network port 3389" groupRelation="and">
+          <DestinationIp condition="begin with">192.168.144.</DestinationIp>
+          <DestinationPort condition="is">3389</DestinationPort>
+        </Rule>
+        <Rule name="SOC private network port 5985" groupRelation="and">
+          <DestinationIp condition="begin with">192.168.144.</DestinationIp>
+          <DestinationPort condition="is">5985</DestinationPort>
+        </Rule>
+        <Rule name="SOC private network port 53" groupRelation="and">
+          <DestinationIp condition="begin with">192.168.144.</DestinationIp>
+          <DestinationPort condition="is">53</DestinationPort>
+        </Rule>
+        <Rule name="SOC private network port 88" groupRelation="and">
+          <DestinationIp condition="begin with">192.168.144.</DestinationIp>
+          <DestinationPort condition="is">88</DestinationPort>
+        </Rule>
+      </NetworkConnect>
+    </RuleGroup>
+    <RuleGroup name="SOC lab file creation" groupRelation="or">
+      <FileCreate onmatch="include">
+        <TargetFilename condition="contains">\SOC-Lab\</TargetFilename>
+      </FileCreate>
+    </RuleGroup>
+  </EventFiltering>
+</Sysmon>

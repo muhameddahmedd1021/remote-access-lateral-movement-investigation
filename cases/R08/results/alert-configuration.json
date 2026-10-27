@@ -1,0 +1,24 @@
+{
+  "name": "WinRM child processes - lab validation",
+  "configuration": {
+    "is_scheduled": false,
+    "disabled": false,
+    "cron_schedule": "* * * * *",
+    "alert.suppress": true,
+    "alert.suppress.period": "300s",
+    "alert.track": true,
+    "actions": "",
+    "action.email": false,
+    "action.webhook": "0",
+    "alert_type": "number of events",
+    "alert_comparator": "greater than",
+    "alert_threshold": "0",
+    "search": "index=lab_windows host=SOC-SRV01 EventCode=1 User=\"*lab.ops\" ParentImage=\"*wsmprovhost.exe\" earliest=\"10/27/2026:05:54:45\" latest=\"10/27/2026:05:55:00\"\n| table _time User Image ParentImage EventRecordID"
+  },
+  "observed_ui_trigger_times_utc": [
+    "2026-10-27T08:35:02Z",
+    "2026-10-27T08:41:00Z"
+  ],
+  "preserved_scheduled_job": "scheduler__mohamedahmed__search__RMD59a22801a0ae236a8_at_1793090460_40",
+  "scheduling_stopped_utc": "2026-10-27T08:58:53.818887+00:00"
+}

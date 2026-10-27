@@ -1,0 +1,8 @@
+SubjectUserName,RelativeTargetName,AccessMask,count
+lab.ops,R04-TRANSFER.TXT,0x120089,2
+lab.ops,R04-TRANSFER.TXT,0xe0080,1
+lab.ops,R04-transfer.txt,0x100080,1
+lab.ops,R04-transfer.txt,0x120089,1
+lab.ops,R04-transfer.txt,0x17019f,1
+lab.ops,R04-transfer.txt,0x2,1
+lab.ops,R04-transfer.txt,0x80,2

@@ -1,0 +1,3 @@
+index=lab_windows EventCode=4104 ScriptBlockText="*hostname*whoami*" earliest="10/27/2026:05:47:21"
+latest="10/27/2026:06:00:59"
+| table _time host ScriptBlockText EventRecordID

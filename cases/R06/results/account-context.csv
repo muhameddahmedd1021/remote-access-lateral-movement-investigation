@@ -1,0 +1,3 @@
+Account,SID,Domain groups,Target local admin,Observed share result
+lab.ops,S-1-5-21-1842343136-3285932228-3355969638-1114,Domain Users; SOC-Lab-Share-Users; SOC-Lab-Operators,Yes through SOC-Lab-Operators,Opened
+lab.user5,S-1-5-21-1842343136-3285932228-3355969638-1109,Domain Users,No,Access denied after authentication

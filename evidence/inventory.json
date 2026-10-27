@@ -1,0 +1,21 @@
+{
+  "native_xml_copies": 286,
+  "unique_native_events": 266,
+  "real_images": 40,
+  "case_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09"
+  ],
+  "dashboard_panels": 9,
+  "verified_dashboard_search_tables": 6,
+  "alert_scheduled_job_ui_rows": 2,
+  "verified_transfer_bytes": 60,
+  "transfer_sha256": "1588017FEDC7ACD882637898E2E486F00E433026ED6EF86618993C5E99B92A13"
+}

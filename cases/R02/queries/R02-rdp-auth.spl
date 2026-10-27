@@ -1,0 +1,2 @@
+index=lab_windows host=SOC-SRV01 EventCode=1149 earliest="10/27/2026:02:50:50" latest="10/27/2026:03:53:00"
+| table _time RdpAuthUser RdpAuthDomain RdpAuthSource EventRecordID
