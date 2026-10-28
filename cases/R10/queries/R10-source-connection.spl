@@ -1,0 +1,4 @@
+index=lab_windows host=SOC-WS01 EventCode=3 ProcessId=1476 DestinationPort=5985
+earliest="10/28/2026:14:22:00" latest="10/28/2026:14:23:05"
+| dedup Computer Channel EventRecordID
+| table UtcTime Image DestinationIp DestinationPort EventRecordID

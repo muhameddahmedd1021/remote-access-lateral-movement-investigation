@@ -1,0 +1,10 @@
+$record = [pscustomobject]@{
+  case = 'R10'
+  computer = $env:COMPUTERNAME
+  user = [Security.Principal.WindowsIdentity]::GetCurrent().Name
+  utc = (Get-Date).ToUniversalTime().ToString('o')
+  pid = $PID
+}
+$record |
+  ConvertTo-Json |
+  Set-Content 'C:\SOC-Lab\RemoteShare\R10-result.json' -Encoding UTF8

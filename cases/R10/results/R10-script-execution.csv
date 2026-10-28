@@ -1,0 +1,2 @@
+"UtcTime","User","ProcessId","ParentImage","CommandLine","EventRecordID"
+"2026-10-28 14:22:58.586","SOC\lab.ops","560","C:\Windows\System32\wsmprovhost.exe","""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NoProfile -File C:\SOC-Lab\RemoteShare\R10-check.ps1","39037"

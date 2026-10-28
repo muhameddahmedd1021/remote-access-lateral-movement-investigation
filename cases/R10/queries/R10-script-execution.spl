@@ -1,0 +1,5 @@
+index=lab_windows host=SOC-SRV01 EventCode=1
+earliest="10/28/2026:14:22:00" latest="10/28/2026:14:24:00"
+ParentImage="*wsmprovhost.exe" Image="*powershell.exe" CommandLine="*-File*"
+| dedup Computer Channel EventRecordID
+| table UtcTime User ProcessId ParentImage CommandLine EventRecordID

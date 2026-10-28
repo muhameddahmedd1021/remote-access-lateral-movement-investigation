@@ -1,0 +1,4 @@
+index=lab_windows host=SOC-SRV01 EventCode=11 TargetFilename="*R10-check.ps1"
+earliest="10/28/2026:13:42:00" latest="10/28/2026:13:44:00"
+| dedup Computer Channel EventRecordID
+| table UtcTime Image TargetFilename EventRecordID

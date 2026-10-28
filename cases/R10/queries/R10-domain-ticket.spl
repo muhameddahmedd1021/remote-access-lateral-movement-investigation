@@ -1,0 +1,4 @@
+index=lab_windows host=SOC-DC01 EventCode=4769 TargetUserName="lab.ops*"
+earliest="10/28/2026:14:22:00" latest="10/28/2026:14:23:05"
+| dedup Computer Channel EventRecordID
+| table _time TargetUserName ServiceName IpAddress Status EventRecordID

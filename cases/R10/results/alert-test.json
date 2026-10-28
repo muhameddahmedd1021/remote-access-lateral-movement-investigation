@@ -1,0 +1,42 @@
+{
+  "name": "Remote PowerShell script execution - lab",
+  "test": "Fresh activity, scheduled detection",
+  "settings_at_test": {
+    "search": "index=lab_windows host=SOC-SRV01 EventCode=1 earliest=-5m latest=now\nParentImage=\"*wsmprovhost.exe\" Image=\"*powershell.exe\" CommandLine=\"*-File*\"\n| dedup Computer Channel EventRecordID\n| table _time User ProcessId ParentProcessId CommandLine EventRecordID\n",
+    "description": "PowerShell launched by a WinRM host with a script file; investigate source, account, file and output.",
+    "is_scheduled": true,
+    "disabled": false,
+    "cron_schedule": "* * * * *",
+    "dispatch.earliest_time": "-5m",
+    "dispatch.latest_time": "now",
+    "alert_type": "number of events",
+    "alert_comparator": "greater than",
+    "alert_threshold": "0",
+    "alert.digest_mode": true,
+    "alert.suppress": true,
+    "alert.suppress.period": "300s",
+    "alert.track": true,
+    "alert.expires": "7d",
+    "alert.severity": 3,
+    "actions": ""
+  },
+  "baseline": {
+    "results": 0,
+    "search_sid": "1793196658.12",
+    "before_execution": true
+  },
+  "trigger_utc": "2026-10-28T14:24:00Z",
+  "trigger_sid": "scheduler__mohamedahmed__search__RMD517c8f0051f5d1ec4_at_1793197440_8",
+  "execution_evidence": {
+    "host": "SOC-SRV01",
+    "channel": "Microsoft-Windows-Sysmon/Operational",
+    "event_id": 1,
+    "record_id": 39037,
+    "pid": 560
+  },
+  "post_test": {
+    "is_scheduled": false,
+    "disabled": false,
+    "trigger_history_retained": true
+  }
+}
